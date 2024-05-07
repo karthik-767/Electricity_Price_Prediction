@@ -7,7 +7,7 @@ import warnings
 warnings.filterwarnings("ignore")
 
 # Load model
-with open('elec_state.sav', 'rb') as f:
+with open('elec_pl_lt.pkl', 'rb') as f:
     model = pickle.load(f)
 
 # Set title and page layout
