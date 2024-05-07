@@ -7,7 +7,7 @@ import warnings
 warnings.filterwarnings("ignore")
 
 # Load model
-with open('C:\\Users\\Dell\\Desktop\\electricity_deploy\\elec_state.sav', 'rb') as f:
+with open('elec_state.sav_1.sav', 'rb') as f:
     model = pickle.load(f)
 
 # Set title and page layout
