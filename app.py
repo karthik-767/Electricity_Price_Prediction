@@ -6,6 +6,7 @@ import warnings
 # Suppress warnings
 warnings.filterwarnings("ignore")
 
+
 # Load model
 with open('elec_pl_lt.pkl', 'rb') as f:
     model = pickle.load(f)
